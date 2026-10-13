@@ -1,0 +1,55 @@
+StreamDek Sans Rounded — licensing and provenance record
+Review build 0.910, 11 October 2026
+
+ORIGINAL PROJECT ASSETS
+
+The StreamDek Sans Rounded outlines, generator, masters, feature definitions and
+specimen layouts were newly generated for this StreamDek commission with AI
+assistance. No pre-existing font outlines were imported, traced, renamed,
+rescaled or modified to construct the StreamDek Sans Rounded font files.
+
+The original generated assets are delivered to the requesting user for use,
+modification, embedding and distribution as part of the StreamDek project,
+subject to the terms governing that user's receipt of generated output.
+This package imposes no additional third-party font licensing requirement on
+those original outlines. It does not declare an open-source release, assign
+third-party rights, or claim that AI-generated output necessarily qualifies
+for exclusive copyright protection. The StreamDek name and logo remain
+subject to their existing ownership; no trademark rights are granted here.
+
+This provenance is evidence of an independent construction process, not a
+global trademark search or legal certification of non-infringement. The
+recipient should determine its final copyright notice and public licensing
+policy before releasing the editable family to third parties. Nothing here
+requires publishing proprietary StreamDek application source.
+
+REFERENCE ASSETS — SEPARATE FROM THE FAMILY
+
+references/GoogleSans-Regular.ttf is an unchanged Google Sans reference
+downloaded from Google's font service. Its separate license is preserved as
+references/GoogleSans-OFL.txt. It is used only for the comparison specimen;
+it is not an input to the StreamDek Sans Rounded generator. Preserve its license when
+redistributing the reference package. It may be omitted from an application
+font distribution, which needs only the selected StreamDek Sans Rounded files.
+
+Source repository: https://github.com/googlefonts/googlesans
+License source: https://github.com/googlefonts/googlesans/blob/main/OFL.txt
+Binary source:
+https://fonts.gstatic.com/s/googlesans/v71/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKli.ttf
+
+No SF Pro Rounded file, Apple font outlines or Apple-rendered specimen is
+included. Official reference and license: https://developer.apple.com/fonts/
+
+specimens/streamdek-logo.png is copied unchanged from the user's existing
+StreamDek Mobile asset. Its existing rights are unchanged. Fictional title
+cards and schematic player controls are specimen artwork, not movie artwork.
+
+BUILD TOOLS
+
+fontTools, Brotli, skia-pathops, uharfbuzz, Pillow and Playwright are external
+build/validation dependencies. Their packages are not included in the release
+ZIP. See their own distributions for their licenses. The produced font outlines
+are not borrowed from any fonts that those libraries may be able to read.
+
+The sfnt fsType field is 0 (embedding restrictions not set). That technical
+field is not by itself a copyright or trademark license.

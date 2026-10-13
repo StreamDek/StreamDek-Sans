@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="400"/>
+  </axes>
+  <sources>
+    <source filename="masters/StreamDekSansRounded-Light.ttf" name="Light" familyname="StreamDek Sans Rounded" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="masters/StreamDekSansRounded-Regular.ttf" name="Regular" familyname="StreamDek Sans Rounded" stylename="Regular">
+      <lib copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="masters/StreamDekSansRounded-Medium.ttf" name="Medium" familyname="StreamDek Sans Rounded" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+    </source>
+    <source filename="masters/StreamDekSansRounded-SemiBold.ttf" name="SemiBold" familyname="StreamDek Sans Rounded" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+    </source>
+    <source filename="masters/StreamDekSansRounded-Bold.ttf" name="Bold" familyname="StreamDek Sans Rounded" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+    <source filename="masters/StreamDekSansRounded-ExtraBold.ttf" name="ExtraBold" familyname="StreamDek Sans Rounded" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Light" familyname="StreamDek Sans Rounded" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </instance>
+    <instance name="Regular" familyname="StreamDek Sans Rounded" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+    <instance name="Medium" familyname="StreamDek Sans Rounded" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+    </instance>
+    <instance name="SemiBold" familyname="StreamDek Sans Rounded" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+    </instance>
+    <instance name="Bold" familyname="StreamDek Sans Rounded" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </instance>
+    <instance name="ExtraBold" familyname="StreamDek Sans Rounded" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

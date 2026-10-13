@@ -1,0 +1,115 @@
+{
+  "browser": "155.0.4283.45",
+  "engine": "Microsoft Edge / Chromium on Windows; headless",
+  "faces": [
+    {
+      "file": "StreamDekSans-Bold.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-ExtraBold.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Light.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Medium.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Regular.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-SemiBold.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Bold.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-ExtraBold.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Light.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Medium.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Regular.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-SemiBold.otf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Bold.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-ExtraBold.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Light.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Medium.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Regular.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-SemiBold.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Variable.ttf",
+      "status": "loaded",
+      "width": 344.5438232421875
+    },
+    {
+      "file": "StreamDekSans-Variable.woff2",
+      "status": "loaded",
+      "width": 344.5438232421875
+    }
+  ],
+  "controls": {
+    "text": "À bientôt · Żółć · Il1 O0 · 01:42:08",
+    "weight": "725",
+    "size": "36px",
+    "features": "\"zero\""
+  },
+  "mobileOverflow": false,
+  "errors": [],
+  "status": "PASS"
+}

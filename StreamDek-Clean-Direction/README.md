@@ -1,0 +1,25 @@
+# StreamDek Sans — Clean edition 0.920
+
+A restrained customisation of Inter 4.1 for the cleaner, iOS-like direction selected for StreamDek. Most letterforms remain Inter. The R, e and t have small documented outline changes; spacing, kerning, broad language coverage and text/display optical sizing are inherited from the professional foundation.
+
+Open `index.html` for an interactive specimen. `specimens/01-clean-direction.png` shows the design; `02-direction-comparison.png` compares the previous rounded proposal with this edition.
+
+## Deliverables
+
+- Six weights: Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, each in TTF, true CFF OTF and WOFF2.
+- Variable TTF and WOFF2: weight 300–800, optical size 14–32.
+- Four supplementary display TTFs: Regular, Medium, SemiBold and Bold, optical size 32. Main static files use optical size 14.
+- 2,852 mapped Unicode characters and 2,937 glyphs, including inherited alternates and accented forms.
+- Five rendered specimens, browser screenshots, validation evidence, build scripts and the original Inter variable source.
+
+Choose one format of the main family for installation. Remove an earlier StreamDek Sans installation first: this edition shares the main family name. Do not install the static and variable editions together under that same family name.
+
+This is a reviewable design build. No application integration was performed. Physical Android/TV testing, macOS/iOS rendering and final acceptance of the design remain pending.
+
+## Rebuild
+
+Use Python 3 with fonttools 4.66.1, brotli 1.2.0, Pillow and uharfbuzz 0.56.3 installed in the active environment. Run `python sources/build_clean.py`, then `python sources/proof_clean.py`. The included official `references/InterVariable.ttf` is the editable variable-outline foundation; `sources/build_clean.py` specifies every custom point offset. The scripts also support the original adjacent `font-build-deps` directory when present.
+
+`validate_clean.py` includes locale checks against the original local StreamDekMobile checkout; adapt that path if running elsewhere. `browser-qa.cjs` requires Playwright and Microsoft Edge; adapt its executable path for another machine.
+
+See `OFL.txt`, `docs/DESIGN.md`, `docs/INTEGRATION.md` and `docs/VALIDATION.md`.

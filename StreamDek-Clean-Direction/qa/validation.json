@@ -1,0 +1,243 @@
+{
+  "files": [
+    {
+      "file": "fonts\\display\\StreamDekSans-DisplayBold.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\display\\StreamDekSans-DisplayMedium.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\display\\StreamDekSans-DisplayRegular.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\display\\StreamDekSans-DisplaySemiBold.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-Bold.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-ExtraBold.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-Light.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-Medium.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-Regular.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\otf\\StreamDekSans-SemiBold.otf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-Bold.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-ExtraBold.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-Light.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-Medium.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-Regular.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\ttf\\StreamDekSans-SemiBold.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\variable\\StreamDekSans-Variable.ttf",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\variable\\StreamDekSans-Variable.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-Bold.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-ExtraBold.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-Light.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-Medium.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-Regular.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    },
+    {
+      "file": "fonts\\woff2\\StreamDekSans-SemiBold.woff2",
+      "characters": 2852,
+      "glyphs": 2937,
+      "parsed": true
+    }
+  ],
+  "locales": {
+    "values": {
+      "distinct_characters": 92,
+      "missing": []
+    },
+    "values-de": {
+      "distinct_characters": 100,
+      "missing": []
+    },
+    "values-es": {
+      "distinct_characters": 99,
+      "missing": []
+    },
+    "values-fr": {
+      "distinct_characters": 104,
+      "missing": []
+    },
+    "values-it": {
+      "distinct_characters": 100,
+      "missing": []
+    },
+    "values-nl": {
+      "distinct_characters": 97,
+      "missing": []
+    },
+    "values-pl": {
+      "distinct_characters": 106,
+      "missing": []
+    },
+    "values-pt": {
+      "distinct_characters": 106,
+      "missing": []
+    }
+  },
+  "interpolations": [
+    {
+      "weight": 350,
+      "opsz": 14,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 350,
+      "opsz": 23,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 350,
+      "opsz": 32,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 550,
+      "opsz": 14,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 550,
+      "opsz": 23,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 550,
+      "opsz": 32,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 750,
+      "opsz": 14,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 750,
+      "opsz": 23,
+      "shaped_and_rasterised": true
+    },
+    {
+      "weight": 750,
+      "opsz": 32,
+      "shaped_and_rasterised": true
+    }
+  ],
+  "axes": {
+    "opsz": [
+      14.0,
+      32.0
+    ],
+    "wght": [
+      300.0,
+      800.0
+    ]
+  },
+  "tabular_numerals": true,
+  "kerning": true,
+  "regular_metrics_unchanged": true,
+  "status": "PASS"
+}

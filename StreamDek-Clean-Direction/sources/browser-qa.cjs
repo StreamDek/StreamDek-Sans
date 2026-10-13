@@ -1,0 +1,24 @@
+const {chromium}=require('playwright');
+const fs=require('fs'),path=require('path');
+const {pathToFileURL}=require('url');
+(async()=>{
+ const root=path.resolve(__dirname,'..');
+ const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ await page.goto(pathToFileURL(path.join(root,'index.html')).href);await page.evaluate(()=>document.fonts.ready);
+ const files=fs.readdirSync(path.join(root,'fonts'),{recursive:true}).filter(p=>/\.(ttf|otf|woff2)$/.test(p));
+ const loaded=await page.evaluate(async files=>{const out=[];for(const [i,p] of files.entries()){const f=new FontFace('Check'+i,`url("fonts/${p.replaceAll('\\','/')}")`);await f.load();out.push({file:p,status:f.status});}return out},files);
+ await page.screenshot({path:path.join(root,'qa/browser-desktop.png')});
+ await page.locator('#sample').fill('Reroute — The next story starts here.');
+ await page.locator('#weight').evaluate(e=>{e.value='550';e.dispatchEvent(new Event('input'))});
+ await page.locator('#size').evaluate(e=>{e.value='32';e.dispatchEvent(new Event('input'))});
+ await page.locator('#theme').click();
+ const controls=await page.locator('#live').evaluate(e=>({text:e.textContent,weight:getComputedStyle(e).fontWeight,size:getComputedStyle(e).fontSize,dark:document.querySelector('#panel').classList.contains('dark')}));
+ if(controls.weight!=='550'||controls.size!=='32px'||!controls.dark)throw Error('Controls failed');
+ await page.setViewportSize({width:390,height:844});
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+ if(overflow)throw Error('Mobile horizontal overflow');
+ await page.screenshot({path:path.join(root,'qa/browser-mobile.png')});
+ fs.writeFileSync(path.join(root,'qa/browser.json'),JSON.stringify({browser:browser.version(),fonts:loaded,controls,mobileWidth:390,horizontalOverflow:overflow,status:'PASS'},null,2));
+ console.log('PASS',loaded.length,'font loads; controls; responsive width390');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

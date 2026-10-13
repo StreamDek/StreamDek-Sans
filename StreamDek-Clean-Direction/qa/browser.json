@@ -1,0 +1,110 @@
+{
+  "browser": "155.0.4283.45",
+  "fonts": [
+    {
+      "file": "display\\StreamDekSans-DisplayBold.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "display\\StreamDekSans-DisplayMedium.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "display\\StreamDekSans-DisplayRegular.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "display\\StreamDekSans-DisplaySemiBold.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-Bold.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-ExtraBold.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-Light.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-Medium.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-Regular.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "otf\\StreamDekSans-SemiBold.otf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-Bold.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-ExtraBold.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-Light.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-Medium.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-Regular.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "ttf\\StreamDekSans-SemiBold.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "variable\\StreamDekSans-Variable.ttf",
+      "status": "loaded"
+    },
+    {
+      "file": "variable\\StreamDekSans-Variable.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-Bold.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-ExtraBold.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-Light.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-Medium.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-Regular.woff2",
+      "status": "loaded"
+    },
+    {
+      "file": "woff2\\StreamDekSans-SemiBold.woff2",
+      "status": "loaded"
+    }
+  ],
+  "controls": {
+    "text": "Reroute — The next story starts here.",
+    "weight": "550",
+    "size": "32px",
+    "dark": true
+  },
+  "mobileWidth": 390,
+  "horizontalOverflow": false,
+  "status": "PASS"
+}

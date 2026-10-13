@@ -1,0 +1,241 @@
+{
+  "source": "Inter 4.1",
+  "source_url": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
+  "source_sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+  "license": "SIL Open Font License 1.1",
+  "modified_points": [
+    {
+      "glyph": "R",
+      "point": 24,
+      "before": [
+        1036,
+        0
+      ],
+      "after": [
+        1054,
+        0
+      ]
+    },
+    {
+      "glyph": "R",
+      "point": 27,
+      "before": [
+        1256,
+        0
+      ],
+      "after": [
+        1274,
+        0
+      ]
+    },
+    {
+      "glyph": "e",
+      "point": 34,
+      "before": [
+        881,
+        251
+      ],
+      "after": [
+        881,
+        243
+      ]
+    },
+    {
+      "glyph": "e",
+      "point": 35,
+      "before": [
+        902,
+        308
+      ],
+      "after": [
+        902,
+        292
+      ]
+    },
+    {
+      "glyph": "e",
+      "point": 36,
+      "before": [
+        1076,
+        260
+      ],
+      "after": [
+        1076,
+        244
+      ]
+    },
+    {
+      "glyph": "e",
+      "point": 37,
+      "before": [
+        1050,
+        176
+      ],
+      "after": [
+        1050,
+        168
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 10,
+      "before": [
+        517,
+        146
+      ],
+      "after": [
+        522,
+        148
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 11,
+      "before": [
+        570,
+        154
+      ],
+      "after": [
+        584,
+        159
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 12,
+      "before": [
+        592,
+        158
+      ],
+      "after": [
+        612,
+        166
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 13,
+      "before": [
+        629,
+        6
+      ],
+      "after": [
+        649,
+        14
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 14,
+      "before": [
+        601,
+        -4
+      ],
+      "after": [
+        615,
+        1
+      ]
+    },
+    {
+      "glyph": "t",
+      "point": 15,
+      "before": [
+        530,
+        -14
+      ],
+      "after": [
+        535,
+        -12
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 10,
+      "before": [
+        487,
+        146
+      ],
+      "after": [
+        492,
+        148
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 11,
+      "before": [
+        540,
+        154
+      ],
+      "after": [
+        554,
+        159
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 12,
+      "before": [
+        562,
+        158
+      ],
+      "after": [
+        582,
+        166
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 13,
+      "before": [
+        599,
+        6
+      ],
+      "after": [
+        619,
+        14
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 14,
+      "before": [
+        571,
+        -4
+      ],
+      "after": [
+        585,
+        1
+      ]
+    },
+    {
+      "glyph": "t.1",
+      "point": 15,
+      "before": [
+        500,
+        -14
+      ],
+      "after": [
+        505,
+        -12
+      ]
+    }
+  ],
+  "cmap_count": 2852,
+  "glyph_count": 2937,
+  "widths": "unchanged",
+  "axes": [
+    {
+      "tag": "opsz",
+      "min": 14.0,
+      "default": 14.0,
+      "max": 32.0
+    },
+    {
+      "tag": "wght",
+      "min": 300,
+      "default": 400,
+      "max": 800
+    }
+  ]
+}
