@@ -40,9 +40,6 @@ The previous rounded proposal alongside the clean edition.
 - 2,852 mapped Unicode characters and 2,937 glyphs, including inherited alternates and accented forms.
 - Five rendered specimens, browser screenshots, validation evidence, build scripts and the original Inter variable source.
 
-Choose one format of the main family for installation. Remove an earlier StreamDek Sans installation first: this edition shares the main family name. Do not install the static and variable editions together under that same family name.
-
-This is a reviewable design build. No application integration was performed. Physical Android/TV testing, macOS/iOS rendering and final acceptance of the design remain pending.
 
 ## Rebuild
 
